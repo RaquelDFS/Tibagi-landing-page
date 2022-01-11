@@ -3,9 +3,7 @@ body{
     background-image: url(/assets/bg\ dog.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: center ;
-    width: 100%;
+    background-position-y: center;
     height: 100vh;
-    font-family: 'Roboto', sans-serif;
-    
+    font-family: 'Roboto', sans-serif;   
 }
