@@ -1,0 +1,6 @@
+body{
+    background-image: url(/assets/bg\ dog.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+}
