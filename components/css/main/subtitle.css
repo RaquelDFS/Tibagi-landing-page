@@ -1,0 +1,12 @@
+.subtitle{
+    font-weight: bold;
+    margin-top: 15px;
+}
+.subtitle.down.ask{
+    font-size: 25px;
+}
+.subtitle.bolder{
+    font-weight: 800;
+    color: rgba(255, 122, 29, 1);
+    text-transform: capitalize;
+}

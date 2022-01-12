@@ -2,3 +2,7 @@
     width: 160px;
     margin: 25px 40px;
 }
+
+.logo:hover{
+    cursor:pointer;
+}
