@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+.title{
+    font-family: 'Anton', sans-serif;
+    font-size: 65px;
+    line-height: 70px;
+    color: rgba(255, 122, 29, 1);
+    text-transform: uppercase;
+}
