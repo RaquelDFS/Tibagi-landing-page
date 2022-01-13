@@ -4,7 +4,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: center;
-    height: 100vh;
+    min-height: 100vh;
     font-family: 'Roboto', sans-serif;  
     display: grid;
     grid-template-columns: 1fr 1fr ;
