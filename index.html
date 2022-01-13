@@ -17,6 +17,10 @@
     <link rel="stylesheet" href="components/css/main/title.css">
     <link rel="stylesheet" href="components/css/main/subtitle.css">
     <link rel="stylesheet" href="components/css/main/part-2.css">
+    <link rel="stylesheet" href="components/css/icon/wpp.css">
+    <link rel="stylesheet" href="components/css/main/form.css">
+    <link rel="stylesheet" href="components/css/main/button.css">
+    <link rel="stylesheet" href="components/css/footer.css">
 </head>
 <body>
     <main class="section">
@@ -30,13 +34,17 @@
                 </div>
                 <div class="part-2">
                     <p class="subtitle down ask">Deseja receber <br> atualizações do calendário de<em class="subtitle bolder"> vacinação </em>por mensagem whatsapp?</p>
-                    <form action="/action_page.php">
-                        <label for="tel">DDD</label><br>
-                        <input type="number*" class="phone ddd" placeholder="(21)" pattern="[0-99]{2}" required><br>
-                        <label for="tel">Celular</label><br>
-                        <input type="tel" class="phone" placeholder="912345678" pattern="[9]{1}[0-9]{8}" required><br>
-                        <input type="submit">
-                      </form>
+                    <fieldset>
+                        <div class="fieldset">
+                            <form class="form" action="form">
+                                <label class="label" for="tel"><img class="wpp"src="/assets/calling_social_media_brand_chatting_logo_whatsapp_icon_197356.svg"</label><br>
+                                <div class="itens">
+                                    <input class="input" type="tel" class="phone" placeholder="912345678" pattern="[9]{1}[0-9]{8}" required><br>
+                                    <input class="button" type="submit">
+                                </div>
+                            </form>
+                        </div>
+                    </fieldset>
                 </div>
             </article>
         </div>
@@ -49,5 +57,9 @@
             </nav>
         </header>
     </main>
+    <footer class="footer">
+        <img class="icones" src="/assets/instagram_logo_brand_social_media_application_icon_197362.svg">
+        <img class="icones" src="/assets/social_media_tik_tok_video_application_logo_brand_icon_197350.svg">
+    </footer>
 </body>
 </html>

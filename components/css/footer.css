@@ -1,0 +1,17 @@
+.footer{
+    display: block;
+    position: fixed;
+    width: 100%;
+    bottom: 0%;
+    background-color: #fff;
+    text-align: center;
+}
+
+.icones{
+    padding: 5px;
+    margin: 5px 20px;
+}
+
+.icones:hover{
+    cursor: pointer;
+}

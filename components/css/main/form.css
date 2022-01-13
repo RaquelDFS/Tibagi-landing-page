@@ -1,0 +1,39 @@
+.fieldset{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.form{
+    background-color: #fff;
+    padding: 50px;
+    padding-top: 10px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+    border-radius: 15px;
+}
+.itens{
+    margin-top: 60px;
+}
+.input{
+    border: none;
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(255, 122, 29, 1);
+    padding: 5px;
+    text-align: center;
+    width: 70px;
+}
+
+
+.input.ddd{
+    width:25px;
+    
+}
+
+.label{
+    color: rgba(255, 122, 29, 1);
+    background-color: rgba(255, 255, 255, 1);
+    text-align: center;
+}
