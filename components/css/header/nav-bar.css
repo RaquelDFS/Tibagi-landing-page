@@ -1,3 +1,10 @@
 .nav-bar{
     right: 100%;
+    height: 100vh;
+}
+@media (max-width: 960px){
+    header .nav-bar{
+        display: block;
+    }
+    
 }
